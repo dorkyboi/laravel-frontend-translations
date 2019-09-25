@@ -8,8 +8,8 @@
    ```blade
    <script>
        window.translations = {!! Cache::get('translations') !!};
-       <script src="/js/translator.js"></script>
    </script>
+   <script src="/js/translator.js"></script>
    ```
    
 ## Usage
