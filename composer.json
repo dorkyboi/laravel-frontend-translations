@@ -1,0 +1,28 @@
+{
+  "name": "dorkyboi/laravel-frontend-translations",
+  "description": "Frontend translations for Laravel projects",
+  "keywords": ["laravel", "translations", "frontend", "javascript"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dmytro Kardava",
+      "email": "dima.kardava@gmail.com"
+    }
+  ],
+  "require": {
+    "laravel/laravel": ">=5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dorkyboi\\FrontendTranslations\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Dorkyboi\\FrontendTranslations\\FrontendTranslationsServiceProvider"
+      ]
+    }
+  }
+}
